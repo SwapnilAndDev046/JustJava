@@ -9,6 +9,7 @@ public class PrintTheFirstNPrimeNumbers {
       System.out.print("Enter Y: ");
       int y= sc.nextInt();
       System.out.print("Prime numbers from "+x+" to "+y+" are: ");
+      int total=0;
       for(int i=x;i<=y;i++){
         int count=0;
         for(int j =1;j<=i;j++){
@@ -17,9 +18,11 @@ public class PrintTheFirstNPrimeNumbers {
           }
         }
         if (count==2) {
+          total++;
           System.out.print(i+" ");
         }
       }
+      System.out.println("\nThe total Prime Numbers are: "+total);
     }
   }
 }
