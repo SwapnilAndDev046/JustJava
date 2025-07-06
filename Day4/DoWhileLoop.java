@@ -8,7 +8,7 @@ public class DoWhileLoop {
       int num = sc.nextInt();
       if (num > 0) {
         System.out.println("num is positive");
-      } else if (num == 0) {
+      } else if (num == 0) { 
         System.out.println("non -ve non +ve");
       } else {
         do {
