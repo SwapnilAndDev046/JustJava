@@ -1,4 +1,4 @@
-package Day6.methods;
+package Day6ReviseThisEveryDay.methods;
 import java.util.*;
 public class FibonacciSeries {
   static void Fibonacci(int n1,int n2,int n){

@@ -1,4 +1,4 @@
-package Day6;
+package Day6ReviseThisEveryDay.IMPORTANT;
 
 public class Scoping {
   static void mess(){

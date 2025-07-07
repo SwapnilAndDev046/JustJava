@@ -1,4 +1,4 @@
-package Day6.methods;
+package Day6ReviseThisEveryDay.methods;
 
 public class SwapTwoNumWithoutThirdVariable {
   static void swap(int n2,int n1){

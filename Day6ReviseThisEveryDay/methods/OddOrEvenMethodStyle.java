@@ -1,4 +1,4 @@
-package Day6.methods;
+package Day6ReviseThisEveryDay.methods;
 import java.util.Scanner;
 public class OddOrEvenMethodStyle {
   static boolean OddEven(int n){

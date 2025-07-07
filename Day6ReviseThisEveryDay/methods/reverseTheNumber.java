@@ -1,4 +1,4 @@
-package Day6.methods;
+package Day6ReviseThisEveryDay.methods;
 import java.util.*;
 public class reverseTheNumber {
   static int reverseNum(int n){
