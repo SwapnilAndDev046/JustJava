@@ -1,5 +1,5 @@
 package Day6ReviseThisEveryDay.IMPORTANT;
-
+// Scoping means each variable can access in his own block only 
 public class Scoping {
   static void mess(){
     int a =30;
