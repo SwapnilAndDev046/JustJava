@@ -3,7 +3,9 @@ package Day8.Strings;
 public class CharAtMethod {
   static void charAtMethod(){
     String name ="Swapnil";
-    System.out.println(name.charAt(0));
+    System.out.println(name.charAt(0));//S
+    System.out.println(name.charAt(1));//w
+    System.out.println(name.charAt(2));//a
   }
   public static void main(String[] args) {
     charAtMethod();
