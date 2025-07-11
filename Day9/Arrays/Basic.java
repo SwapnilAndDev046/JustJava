@@ -9,7 +9,7 @@ public class Basic {
     int total = RollNum.length;
     System.out.println("class contain this may student " + total);
     System.out.println(RollNum[0] + RollNum[1]);
-    String[] StudentName = { "a", "b" };
+    // String[] StudentName = { "a", "b" };
 
     System.out.println(Arrays.toString(RollNum));// to print array
   }
