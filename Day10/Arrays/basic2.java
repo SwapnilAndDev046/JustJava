@@ -15,7 +15,7 @@ public class basic2 {
   }
 
   public static void main(String[] args) {
-    array1();
-    
+   array1();
+
   }
 }
