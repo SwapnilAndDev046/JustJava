@@ -1,8 +1,8 @@
 package Day10.ArrayQuestions;
 
-import java.util.Arrays;
+// import java.util.Arrays;
 import  java.util.*;
-import java.util.Scanner;
+// import java.util.Scanner;
 
 public class FindTheLargest{
   static void array1(int [] large){

@@ -1,6 +1,6 @@
 package Day10.MultiDimensional;
 
-import java.util.Arrays;
+// import java.util.Arrays;
 import java.util.Scanner;
 
 public class TwoDArrayLoopInput {

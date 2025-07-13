@@ -12,11 +12,11 @@ public class TwoDArray {
         */
 //2D array
         int [][] arr =  new int[3][3];
-        int [][] arr1 = {
-                {1,2,4},
-                {2,3},
-                {1,2,5,9}
-        };
+        // int [][] arr1 = {
+        //         {1,2,4},
+        //         {2,3},
+        //         {1,2,5,9}
+        // };
         //input
         arr [0] [0] = 1;
         arr [0] [1] = 2;
