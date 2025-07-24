@@ -8,14 +8,14 @@ public class Armstrong {
       System.out.println("please take 3 digit number: ");
       int n = sc.nextInt();
       if (99 < n && n < 1000) {
-        int D1 = n / 100;// first digit
-        int D2 = (n % 100) / 10;// second digit
-        int D3 = n % 10;// third digit
-        int n1 = D1 * D1 * D1;
-        int n2 = D2 * D2 * D2;
-        int n3 = D3 * D3 * D3;
+        int D1 = (n / 100)*(n / 100)*(n / 100);// first digit
+        int D2 = ((n % 100) / 10)*((n % 100) / 10)*((n % 100) / 10);// second digit
+        int D3 = (n % 10)*(n % 10)*(n % 10);// third digit
+        // int n1 = D1 * D1 * D1;
+        // int n2 = D2 * D2 * D2;
+        // int n3 = D3 * D3 * D3;
 
-        if (n1 + n2 + n3 == n) {
+        if (D1 + D2 + D3 == n) {
           System.out.println("Number is Armstrong Number!");
         } else {
           System.out.println("Number is not ArmStrong Number!");
