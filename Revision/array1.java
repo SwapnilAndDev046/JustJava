@@ -9,15 +9,15 @@ public class array1 {
 
     static int sum(int[] array) {
         int sum = 0;
-        for (int index = 0; index < array.length; index++) {
-            sum = sum + array[index];
+        for (int num : array) {
+            sum = sum + num;
         }
        return sum;
     }
       static int mul(int[] array) {
         int mul = 1;
-        for (int index = 0; index < array.length; index++) {
-            mul = mul * array[index];
+        for (int num:array) {
+            mul = mul * num;
         }
        return mul;
     }
