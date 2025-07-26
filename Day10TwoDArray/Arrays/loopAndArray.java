@@ -1,4 +1,4 @@
-package Day10.Arrays;
+package Day10TwoDArray.Arrays;
 import java.util.Arrays;
 import java.util.Scanner;
 

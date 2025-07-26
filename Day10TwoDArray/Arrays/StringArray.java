@@ -1,4 +1,4 @@
-package Day10.Arrays;
+package Day10TwoDArray.Arrays;
 
 // import java.sql.SQLOutput;
 import java.util.Arrays;

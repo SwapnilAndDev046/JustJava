@@ -1,5 +1,6 @@
-package Day10.MultiDimensional;
+package Day10TwoDArray.MultiDimensional;
 
+import java.util.Arrays;
 // import java.util.Arrays;
 import java.util.Scanner;
 
@@ -28,6 +29,10 @@ public class TwoDArrayLoopInput {
                    System.out.print(arr [row] [col]+" ");
                }
                System.out.println();//for new linee
+           }
+           //output
+           for (int row = 0; row < arr.length ; row++){
+            System.out.println(Arrays.toString(arr[row]));
            }
        }
 

@@ -1,4 +1,4 @@
-package Day10.MultiDimensional;
+package Day10TwoDArray.MultiDimensional;
 
 import java.util.Arrays;
 

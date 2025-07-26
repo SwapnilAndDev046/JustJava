@@ -21,7 +21,7 @@ public class primeNumberOrNot {
       System.out.print("enter Number:");
       int n = sc.nextInt();
       boolean result = CheckPrime(n);
-      if (result==true) {
+      if (result) {
         System.out.println("prime");
       }
       else{

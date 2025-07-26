@@ -1,5 +1,5 @@
 package Day7.Strings;
-
+//both are in the same pool in heap memory
 public class Pooling {
   static void pooling(){
     String a = "Hello";

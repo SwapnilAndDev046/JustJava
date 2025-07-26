@@ -1,6 +1,6 @@
 package Day11.Array;
 
-import java.sql.SQLOutput;
+// import java.sql.SQLOutput;
 import java.util.Arrays;
 
 public class containsDuplicates {
