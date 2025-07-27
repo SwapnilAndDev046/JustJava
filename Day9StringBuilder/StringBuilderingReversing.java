@@ -1,4 +1,4 @@
-package Day9;
+package Day9StringBuilder;
 import java.util.*;
 public class StringBuilderingReversing  {
   static void revering(String sc){

@@ -1,4 +1,4 @@
-package Day9.Arrays;
+package Day9StringBuilder.Arrays;
 
 import java.util.Arrays;
 
