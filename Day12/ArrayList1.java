@@ -4,27 +4,20 @@ import java.util.ArrayList;
 
 public class ArrayList1 {
     public static void main(String[] args) {
-        ArrayList<Long> KB = new ArrayList<>();
-        ArrayList<Long> MB = new ArrayList<>();
-        ArrayList<Long> GB = new ArrayList<>();
-        ArrayList<Long> TB = new ArrayList<>();
-        
-        long[] arr = { 10, 232, 32434, 3434, 34334, 34, 3434, 34343, 3434, 3, 434, 100000, 93823, 33233, 333343,
-                34343, 324, 434, 34, 345475, 4,328728433, 343, 4343, 434, 3324,883749832 };
-        for (int i = 0; i < arr.length; i++) {
-            if (arr[i] < 1000) {
-                KB.add(arr[i]);
-            } else if (1000 <= arr[i] && arr[i] < 1000000) {
-                MB.add(arr[i]);
-            } else if (1000000 <= arr[i] && arr[i] < 1000000000) {
-                GB.add(arr[i]);
-            } else if (1000000000 <= arr[i]) {
-                TB.add(arr[i]);
-            }
-        }
-        System.out.println("KB files size:"+KB);
-        System.out.println("MB files size:"+MB);
-        System.out.println("GB files size:"+GB);
-        System.out.println("TB files size:"+TB);
+        ArrayList<Integer> list = new ArrayList<>(5);
+        list.add(6);//Used to add element
+        list.add(12);
+        list.add(7);
+        list.add(14);
+        list.add(8);
+        list.add(16);
+        list.add(9);
+        list.add(18);
+        System.out.println(list.contains(14));//present true or false
+        list.remove(6);//removes element at index next element get that index
+        list.remove(Integer.valueOf(18));
+        list.set(5,69);//replace the element at at that index with new
+        System.out.println(list.get(5));//gives element present at that index
+        System.out.println(list);//prints the list
     }
 }
