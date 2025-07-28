@@ -1,4 +1,4 @@
-package Day13.ArrayQuestions;
+package Day13MostIMPForArray.ArrayQuestions;
 
 // import java.util.ArrayList;
 import java.util.Arrays;
@@ -12,6 +12,7 @@ public class ReverseTheArray {
     static void reverse(int [] arr){
         int start = 0;
         int end = arr.length-1;
+        // directly affecting array
         while (end>start) {
             int temp = arr[start];
             arr[start] = arr[end];
