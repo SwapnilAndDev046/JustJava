@@ -16,7 +16,7 @@ public class StringReversing {
             start++;
             end--;
         }
-        String rev = String.valueOf(charsName);
+        String rev = String.valueOf(charsName);//converts char to string
         if (name.equals(rev)) {
             System.out.println("it's a pallindrome!!");
         }
