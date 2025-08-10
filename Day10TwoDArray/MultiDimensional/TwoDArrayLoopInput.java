@@ -6,7 +6,7 @@ import java.util.Scanner;
 
 public class TwoDArrayLoopInput {
     static void looping(){
-        int [][] arr = new int[3][5];
+        int [][] arr = new int[3][2];
 
         /*
         arr.length  =  number of rows
