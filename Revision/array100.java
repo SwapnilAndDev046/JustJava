@@ -9,7 +9,7 @@ public class array100 {
         System.out.println(findKthPositive(arr,k));
     }
     public static int findKthPositive(int[] arr, int k) {
-        int low = 0;
+        // int low = 0;
         int n = arr.length;
         int high = n - 1;
         ArrayList<Integer> list = new ArrayList<>();
