@@ -1,4 +1,4 @@
-package Revision;
+
 
 public class SecondSmallArray {
    public static void main(String[] args) {

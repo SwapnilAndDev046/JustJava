@@ -1,4 +1,4 @@
-package Revision;
+
 
 public class SmallestInArray {
     public static void main(String[] args) {

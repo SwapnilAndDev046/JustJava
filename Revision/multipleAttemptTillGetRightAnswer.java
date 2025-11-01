@@ -1,4 +1,4 @@
-package Revision;
+
 import java.util.*;
 public class multipleAttemptTillGetRightAnswer {
     public static void main(String[] args) {
